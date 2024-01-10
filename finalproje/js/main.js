@@ -1,7 +1,7 @@
 var i = 0;
 var images = [
-  { src: './img/german.jpg', link: 'https://www.example.com/page1' },
-  { src: './img/english.jpg', link: 'https://www.example.com/page2' }
+  { src: './img/german.jpg', link: 'almanca.html' },
+  { src: './img/english.jpg', link: 'ingilizce.html' }
 ];
 
 var duration = 2000;

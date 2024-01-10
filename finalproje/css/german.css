@@ -1,8 +1,7 @@
 .background-image {
         
-    background: url('../img/bulut3.png') rgb(255, 255, 255);
-    background-repeat: no-repeat;
-    background-position: center;
+    background: url('../img/germanbg.png') rgb(255, 255, 255);
+    background-repeat: repeat-x repeat-y;
     background-attachment: fixed;
     
 }
@@ -14,39 +13,13 @@ font-family: 'Courier New', monospace;
 font-weight: bold;
 }
 
-.banner{
-background-image: url(../img/bina.png);
-background-size: cover;
-padding: 6%;
-opacity: 1;
-background-repeat: no-repeat ;
-}
-
-.banner2 {
-background-image: url(../img/bina2.png);
-background-size: contain;
-padding: 5%;
-opacity: 1;
-background-repeat: no-repeat ;
-}
-
+/* YARI ŞEFFAF KUTU */
 .box{
     margin: 40px;
     background-color: #ffffff;
     border: 1px solid black;
     opacity: 0.7;
-    height: 260px;
 }
-
-.box2{
-    margin: 40px;
-    background-color: #84ccf6;
-    border: 1px solid black;
-    opacity: 0.7;
-
-}
-
-
 
 .container{
 text-align: center;

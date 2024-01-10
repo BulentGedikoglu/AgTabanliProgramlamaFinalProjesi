@@ -1,35 +1,67 @@
 .background-image {
         
-    background: url('../img/bulut3.png') rgb(255, 255, 255);
+    background: url('../img/sssbulut2.png') rgb(255, 255, 255);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    
+
 }
 
 .baslik{
-color:red;
-font-size: 25px;
-font-family: 'Courier New', monospace;
-font-weight: bold;
+    color:red;
+    font-size: 25px;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    }
+
+/* SSS BÖLÜMÜ */
+.container {
+    display: flex;
 }
 
-.banner{
-background-image: url(../img/bina.png);
-background-size: cover;
-padding: 6%;
-opacity: 1;
-background-repeat: no-repeat ;
+
+ul.sss{
+    margin-right: 20px;
+    width:80%;  
+    float:left;  
+    width: 100%;
+    }
+
+ul.sss li {
+        transition: height ease-in-out 600ms; /* Yüksekliğin açılış gecikmesi */
+        height: 40px;
+        margin-bottom: 20px;
+        overflow: hidden; /* İçerik sığmaz ise kırpıyor*/
+        list-style-type: none;
+        border: 3px solid #000000;
+        background-color: #969696;
+        width: 70%;
+}    
+
+ul.sss a {
+    color: #000000;
+    display: block;
+    padding:6px 6px 0 6px;
+    font-size: 25px;
+    height: 35px;
+    text-decoration: none;
+    } 
+
+ul.sss li:hover {
+    height:120px;
 }
 
-.banner2 {
-background-image: url(../img/bina2.png);
-background-size: contain;
-padding: 5%;
-opacity: 1;
-background-repeat: no-repeat ;
+ul.sss li:hover a { /* Fare ile üzerine gelinirse */
+    font-weight: bold;
+    font-size:20px;
+    color:#ff0800;
 }
 
+
+
+
+
+/* YARI ŞEFFAF KUTULAR */
 .box{
     margin: 40px;
     background-color: #ffffff;
