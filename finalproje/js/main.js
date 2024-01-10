@@ -1,3 +1,4 @@
+
 var i = 0;
 var images = [
   { src: './img/german.jpg', link: 'almanca.html' },
@@ -11,7 +12,7 @@ function slideimg() {
   sliderImage.src = images[i].src;
 
   
-  if (images[i].link) { // Bağlantıya yönlerdirilen kısım.
+  if (images[i].link) { // Bağlantıya yönlendirilen kısım.
     sliderImage.parentNode.href = images[i].link;
   }
 

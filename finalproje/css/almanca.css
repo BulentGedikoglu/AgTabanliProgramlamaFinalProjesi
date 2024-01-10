@@ -1,0 +1,135 @@
+.background-image {
+        
+    background: url('../img/germanbg.png') rgb(255, 255, 255);
+    background-repeat: repeat-x repeat-y;
+    background-attachment: fixed;
+    
+}
+
+.baslik{
+    color:red;
+    font-size: 25px;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    }
+    
+    /* YARI ŞEFFAF KUTULAR*/
+    .box{
+        background-color: #ffffff;
+        border: 1px solid black;
+        opacity: 0.9;
+        width: fit-content;
+        margin-left: 30%;
+        height: 50px;
+    }
+    
+    .box2{
+        margin-left: 5%;
+        background-color: #ffffff;
+        border: 1px solid black;
+        opacity: 0.9;
+        width: fit-content;
+        border: 0px;
+    }
+    
+    .box3{
+        margin-left: 5%;
+        margin-right: 14%;
+        background-color: #ffffff;
+        border: 1px solid black;
+        opacity: 0.9;
+        width: 80%;
+    }
+    
+    
+    /* HEDEFLER VE KAZANIMLAR BÖLÜMÜ */
+    .container {
+        display: flex;
+    }
+    
+    
+    ul.sss{
+        margin-left: 25px;  
+        float:left;  
+        width: 100%;    
+        opacity: 0.9;
+        }
+    
+    ul.sss li {
+            transition: height ease-in-out 600ms; /* Yüksekliğin açılış gecikmesi */
+            height: 40px;
+            margin-bottom: 20px;
+            overflow: hidden; /* İçerik sığmaz ise kırpıyor*/
+            list-style-type: none;
+            border: 3px solid #000000;
+            background-color: #ecebae;
+            width: 85%;
+            text-align: center;
+    }    
+    
+    ul.sss a {
+        color: #000000;
+        display: block;
+        padding:6px 6px 0 6px;
+        font-size: 25px;
+        height: 35px;
+        text-decoration: none;
+        cursor: context-menu;
+        
+        } 
+    
+    ul.sss li:hover { /* Fare ile üzerine gelinirse yükseklik değişir */
+        height:250px;
+    }
+    
+    ul.sss li:hover a { /* Fare ile üzerine gelinirse */
+        font-weight: bold;
+        color:#ff0800;
+    }
+    
+    
+    /*MENÜ BÖLÜMÜ */
+    
+    .menu{
+    list-style-type: none;
+    background-color: rgb(10, 10, 97);
+    width: 100%;
+    }
+    
+    .menu li{
+        display: inline-block;
+        padding: 20px;
+        margin-left: -15px;
+        margin-right: 20px;
+       
+    }
+    
+    .menu li:hover{
+        background-color: red;
+        transition: 0.6s;
+    }
+    
+    .menu li a:hover{
+        color: black;
+        transition: 0.6s;
+    }
+    
+    .menu li a{
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-weight: bold;
+    }
+    
+    #kurslar{
+        display: none;
+        position: absolute;
+        margin-top: 20px;
+        margin-left: -21px;
+        background-color: rgb(10, 10, 97);
+        padding: 15px;
+        width: 157px;
+    }
+    .menu li:hover #kurslar {
+        display: block; 
+    }

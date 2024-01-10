@@ -21,8 +21,7 @@
 
 
 ul.sss{
-    margin-right: 20px;
-    width:80%;  
+    margin-right: 20px;  
     float:left;  
     width: 100%;
     }
@@ -35,7 +34,7 @@ ul.sss li {
         list-style-type: none;
         border: 3px solid #000000;
         background-color: #969696;
-        width: 70%;
+        width: 80%;
 }    
 
 ul.sss a {
@@ -45,15 +44,15 @@ ul.sss a {
     font-size: 25px;
     height: 35px;
     text-decoration: none;
+    cursor: context-menu;
     } 
 
-ul.sss li:hover {
-    height:120px;
+ul.sss li:hover { /* Fare ile üzerine gelinirse yükseklik değişir */
+    height:200px;
 }
 
 ul.sss li:hover a { /* Fare ile üzerine gelinirse */
     font-weight: bold;
-    font-size:20px;
     color:#ff0800;
 }
 
@@ -84,40 +83,7 @@ ul.sss li:hover a { /* Fare ile üzerine gelinirse */
 text-align: center;
 }
 
-/* İLETİŞİM BÖLÜMÜ */
-.x{
-    list-style: none; 
-    margin:0;
-    padding: 0; 
-    text-align: left;
-}
-
-.x li{
-    display: inline-table; 
-    margin: 0 200px; 
-   
-}
-
-
-div.a{
-    text-align: center;
-    font-size: 40px;
-    font-weight: bolder;
-}
-div.b{
-    text-align: left;
-    font-size: 30px;
-    margin-left: 200px;
-    font-weight: bold;
-}
-div.c{
-    font-size: 24px;
-
-}
-
-
 /*MENÜ BÖLÜMÜ */
-
 .menu{
 list-style-type: none;
 background-color: rgb(10, 10, 97);

@@ -13,47 +13,78 @@ font-family: 'Courier New', monospace;
 font-weight: bold;
 }
 
-/* YARI ŞEFFAF KUTU*/
+/* YARI ŞEFFAF KUTULAR*/
 .box{
-    margin: 40px;
     background-color: #ffffff;
     border: 1px solid black;
-    opacity: 0.7;
+    opacity: 0.9;
+    width: fit-content;
+    margin-left: 30%;
+    height: 50px;
 }
 
-.container{
-text-align: center;
+.box2{
+    margin-left: 5%;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.9;
+    width: fit-content;
+    border: 0px;
 }
 
-/* İLETİŞİM BÖLÜMÜ */
-.x{
-    list-style: none; 
-    margin:0;
-    padding: 0; 
-    text-align: left;
-}
-
-.x li{
-    display: inline-table; 
-    margin: 0 200px; 
-   
+.box3{
+    margin-left: 5%;
+    margin-right: 14%;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.9;
+    width: 80%;
 }
 
 
-div.a{
-    text-align: center;
-    font-size: 40px;
-    font-weight: bolder;
+/* HEDEFLER VE KAZANIMLAR BÖLÜMÜ */
+.container {
+    display: flex;
 }
-div.b{
-    text-align: left;
-    font-size: 30px;
-    margin-left: 200px;
+
+
+ul.sss{
+    margin-left: 25px;  
+    float:left;  
+    width: 100%;    
+    opacity: 0.9;
+    }
+
+ul.sss li {
+        transition: height ease-in-out 600ms; /* Yüksekliğin açılış gecikmesi */
+        height: 40px;
+        margin-bottom: 20px;
+        overflow: hidden; /* İçerik sığmaz ise kırpıyor*/
+        list-style-type: none;
+        border: 3px solid #000000;
+        background-color: #ecebae;
+        width: 85%;
+        text-align: center;
+}    
+
+ul.sss a {
+    color: #000000;
+    display: block;
+    padding:6px 6px 0 6px;
+    font-size: 25px;
+    height: 35px;
+    text-decoration: none;
+    cursor: context-menu;
+    
+    } 
+
+ul.sss li:hover { /* Fare ile üzerine gelinirse yükseklik değişir */
+    height:250px;
+}
+
+ul.sss li:hover a { /* Fare ile üzerine gelinirse */
     font-weight: bold;
-}
-div.c{
-    font-size: 24px;
-
+    color:#ff0800;
 }
 
 
